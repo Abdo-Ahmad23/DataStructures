@@ -24,3 +24,14 @@
     - isEmpty: Checks if the queue is empty.
     - isFull: Checks if the queue is full.
     - Display: Shows the elements in the queue in their correct order.
+.
+.
+.
+.
+# Queue (Linked List Implementation)
+### The Circular Queue is an enhanced version of the traditional FIFO (First-In-First-Out) queue, where the last position is connected back to the first position to make a circle. This approach efficiently uses memory by reusing the space freed up by dequeued elements.
+    - Linked List Structure: Dynamically allocated nodes, allowing the queue to expand as necessary.
+    - Enqueue: Adds elements to the back of the queue.
+    - Dequeue: Removes elements from the front of the queue.
+    - Peek: Retrieves the front element without removing it.
+    - Display: Prints the elements in the queue in the order they appear.
