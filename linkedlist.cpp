@@ -7,7 +7,8 @@ struct Node{
 
 Node *HEAD = NULL;
 
-// insert At the beginning of linkedList
+
+// insert At the beginning of linkedlist
 void insertFromStart(int value);
 
 // insert At the End of linkedList
