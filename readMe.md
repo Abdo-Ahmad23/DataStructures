@@ -48,3 +48,18 @@
     - Display (display): Prints the elements of the linked list.
     
 The code is designed to demonstrate how linked lists can be managed using basic data structures like struct, with manual handling of memory allocation and node linking.
+# Stack Implementation using vector:
+#### A stack is a linear data structure that follows the Last In, First Out (LIFO) principle, meaning the last element added to the stack is the first one to be removed. In this implementation, we use a vector, a dynamic array from the C++ Standard Library, to manage the stack. Vectors are ideal for stack operations because they efficiently manage memory and allow for dynamic resizing.
+
+# Key Operations:
+    - Push:
+        The push operation adds an element to the top of the stack. In this implementation, the vector’s push_back() function is used to append the new element to the end of the vector, which corresponds to the top of the stack.
+
+    - Pop:
+        The pop operation removes the element from the top of the stack. This is done using the pop_back() function of the vector, which removes the last element. Before performing the pop operation, we check if the stack is empty to avoid errors.
+
+    - Peek:
+        The peek operation returns the top element of the stack without removing it. The vector’s back() function is used to access the last element. If the stack is empty, an error message is displayed, and a default value is returned.
+
+    - Display:
+        The display operation prints all elements in the stack from top to bottom. Since the vector stores elements in the order they were added, we iterate through the vector in reverse order to display the stack contents in the correct LIFO order.
