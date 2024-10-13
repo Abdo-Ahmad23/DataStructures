@@ -77,7 +77,7 @@ The code is designed to demonstrate how linked lists can be managed using basic 
         - This operation has a time complexity of O(1) since only the head pointer of the linked list needs to be updated.
         Example:
 
-        If the stack is currently empty and we push 5, a new node containing 5 will be created, and it will become the top of the stack.
+            If the stack is currently empty and we push 5, a new node containing 5 will be created, and it will become the top of the stack.
     - Pop Operation:
 
         - The pop operation removes the element at the top of the stack.
@@ -86,7 +86,7 @@ The code is designed to demonstrate how linked lists can be managed using basic 
         - Before popping, a check is performed to ensure that the stack is not empty.
         Example:
 
-        If the stack has elements [5, 10] (with 5 at the top) and we pop, 5 will be removed, leaving 10 as the new top element.
+            If the stack has elements [5, 10] (with 5 at the top) and we pop, 5 will be removed, leaving 10 as the new top element.
     - Peek Operation:
 
         - The peek operation returns the value of the top element without removing it from the stack.
@@ -95,7 +95,7 @@ The code is designed to demonstrate how linked lists can be managed using basic 
         - Before peeking, a check is performed to ensure the stack is not empty.
         Example:
 
-        If the stack contains [10, 20] (with 10 at the top), calling peek will return 10 without removing it.
+            If the stack contains [10, 20] (with 10 at the top), calling peek will return 10 without removing it.
     - Display Operation:
 
         - The display operation prints all the elements in the stack starting from the top.
